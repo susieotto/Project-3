@@ -21,12 +21,12 @@ const DisplayLinks = props => {
 			<nav className="navbar">
 				<ul className="nav">
 					<li>
-						<Link to="/logout" className="nav-link black-text" onClick={props._logout}>
+						<Link to="/logout" className="nav-link white-text" onClick={props._logout}>
 							Logout
 						</Link>
 					</li>
 					<li className="nav-item">
-						<img alt="calabs" id="jpg" src="./assets/images/calabs_130.png"></img>
+						<img alt="calabs" id="jpg" src="./assets/images/calabs_nav_80.png"></img>
 					</li>
 				</ul>
 			</nav>
